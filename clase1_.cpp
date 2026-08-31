@@ -9,7 +9,7 @@ int main ()
     if(salario <=8000)
     {
         s_retenido=salario*0.03;
-        s_recibido=salario-s_retenido;
+        s_recibido=salario-s_retenido;  
     }
     else if(salario>10000 && salario<=18000)
     {
@@ -19,7 +19,7 @@ int main ()
     else if(salario>18000 && salario<=20000)
     {
         s_retenido=salario*0.10;
-        s_recibido=salario-s_retenido;
+        s_recibido=salario-s_retenido;  
 
     }
     else if(salario>20000)
